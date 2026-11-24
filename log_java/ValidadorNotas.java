@@ -28,11 +28,20 @@ public class ValidadorNotas{
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Ingresa una nota del 0 al 20: ");
+
+        while(true){
+        System.out.print("Ingresa una nota del 0 al 20: ");
         double notaIngresada = sc.nextDouble();
+
+        if(notaIngresada == -1){
+       System.out.println("Saliendo...");
+       break;
+        }
+
         ValidadorNotas val = new ValidadorNotas(notaIngresada);
         String resultado = val.Validar();
         System.out.println("Evaluación: " + resultado);    
+    }
         sc.close();
     }
 
