@@ -1,4 +1,4 @@
-package log_java.Pruebas;
+package log_java.Consolidando_log;
 
 import java.util.Scanner;
 
