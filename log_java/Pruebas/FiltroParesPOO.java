@@ -1,4 +1,4 @@
-package log_java;
+package log_java.Pruebas;
 
 import java.util.Scanner;
 
