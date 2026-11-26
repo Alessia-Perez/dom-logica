@@ -1,4 +1,4 @@
-package log_java.Consolidando_log;
+package log_java.Ejercicios_Dirigidos;
 
 import java.util.Scanner;
 

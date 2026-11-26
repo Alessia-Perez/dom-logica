@@ -1,4 +1,4 @@
-package log_java;
+package log_java.Ejercicios_Dirigidos;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class CajeroAutomatico {
